@@ -6,11 +6,48 @@
 .home {
     .container {
       padding-top: 150px;
+
+      .poste {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap:16px;
+        
+        hr {
+          width: 5em;
+        }
+
+        :first-child {
+          &:extend(.text-large); 
+          width: fit-content;
+        }
+
+        :last-child {
+          &:extend(.text-large); 
+          color:@main;
+          width: fit-content;
+        }
+      }
+
+
+
       p {
         &:extend(.headline-large); 
         width:75%;
         line-height: 152.9%;
-        }  
+      }  
+      
+      .bg-square {
+        background-color:@main-bg;
+        position: absolute;
+        width: 587px;
+        height: 472px;
+        left: 45%;
+        top: 25%;
+        z-index: -1;
+      }
     }
     
     
