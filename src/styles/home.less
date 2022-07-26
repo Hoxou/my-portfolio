@@ -35,9 +35,9 @@
 
       p {
         &:extend(.headline-large); 
-        width:75%;
+        width:60%;
         line-height: 152.9%;
-      }  
+      }
       
       .bg-square {
         background-color:@main-bg;
@@ -47,6 +47,60 @@
         left: 45%;
         top: 25%;
         z-index: -1;
+      }
+
+      .quote-container {
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        width: 90%;
+        margin-top:100px;
+        color: @dark;
+
+
+        :first-child {
+          top:-10vh
+        }
+        :last-child {
+          bottom:-10vh;
+          transform: rotate(180deg);
+        }
+
+        
+        .big-quote {
+          font-size: 80px;
+          font-family: @font;
+          font-weight: 500;
+          line-height: 0;
+          width: 100%;
+          position: absolute;
+        }
+
+        .quote{
+          &:extend(.title-small);
+          line-height: 36px;
+          width: auto;
+          flex:1;
+
+          strong {
+            position:relative;
+            top:100%;
+            bottom:100%;
+            margin:0px 12px;
+          }
+          strong::before {
+            background-color: @light-main;
+            content: "";
+            position: absolute;
+            width: calc(100% + 16px);
+            height: 90%;
+            left: -8px;
+            bottom: 0;
+            z-index: -1;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px @dark-main;
+          }
+        }
       }
     }
     

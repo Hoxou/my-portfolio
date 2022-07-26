@@ -11,8 +11,13 @@ export default function Home(props) {
               <hr></hr>
               <p>Designeur UI/UX Junior</p>
           </div>
-          <p>Après avoir designé des interfaces à Taïwan pendant deux ans pour des applications web Big Data, je souhaite poursuivre ma carrière dans ce domaine.</p>
+          <p className="main-title">Après avoir designé des interfaces à Taïwan pendant deux ans pour des applications web Big Data, je souhaite poursuivre ma carrière dans ce domaine.</p>
           <div className="bg-square"></div>
+          <div className="quote-container">
+            <p className="big-quote">“</p>
+            <p className="quote">Ayant une expérience de <strong>chef de projet digital</strong> et de <strong>développeur front-end</strong> l’environnement de création d’une application web est pour moi très familier. J’ai également passé 5 ans à Taïwan, je sais donc m’adapter à tout type d’environnement et je suis capable de faire face aux challenges. </p>
+            <p className="big-quote">“</p>
+          </div>
         </div>
         
         
