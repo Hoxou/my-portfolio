@@ -5,7 +5,10 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projets(props) {
   return (
     <div className="projets">
-      <Header />
+      <div style={{ zIndex:10}}>
+        <Header />
+      </div>
+      
       {//need to do a .map of all the <ProjectCard> and show the card with the right data
       }
 
@@ -16,7 +19,6 @@ export default function Projets(props) {
       {//for testing design
       }
       <div className="container">
-        <ProjectCard />
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

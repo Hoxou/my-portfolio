@@ -1,1 +1,63 @@
 @import "./variables.less";
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color:@dark;
+    justify-content: end;
+    gap:16px;
+    padding:24px 24px;
+    margin-top:5em;
+    width:372px;
+    height: 550px;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
+
+    span {
+        position: absolute;
+        top:-12%;
+        left:24px;
+        right:24px;
+        height:324px;
+        background-color: #d9d9d9;
+        border-radius: 40px 0px;
+    }
+
+    h1 {
+        &:extend(.title-small);
+        line-height: 0;
+    }
+
+    h3 {
+        &:extend(.text-large);
+        line-height: 0;
+        
+    }
+    .role {
+        color:@main;
+        font-weight: bold;
+    }
+
+    .desc {
+        &:extend(.text-default);
+    }
+
+    button {
+        &:extend(.text-large); 
+        color:@black;
+        border:1px solid @black;
+        background-color: transparent;
+        padding: 4px 20px;
+        width: fit-content;
+    }
+
+    
+}
+
+.card:hover {
+    span {
+        transition-duration: 500ms;
+        transform: rotate(-3deg);
+    }
+}
