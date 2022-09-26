@@ -11,7 +11,7 @@ export function App(props) {
       <Home path="/"/>
       <Projets path="/projets"/>
       <Cv path="/cv" />
-      <ProjectDetails path="/details/:id" />
+      <ProjectDetails path="/projet/:id" />
     </Router>
   )
 }

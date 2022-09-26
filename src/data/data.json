@@ -7,6 +7,13 @@
                 "UI/UX Designer",
                 "PO/PM"
             ],
+            "outils": [
+                "Figma",
+                "Adobe XD",
+                "Miro",
+                "Notion"
+            ],
+            "duree": "12 mois",
             "description": "C'est une multinationale qui a décidé d’améliorer leurs ventes en proposant un CRM à leurs commerciaux afin d'obtenir un meilleur rendement. Ce projet comporte de la big Data. Il s’agit de mon tout premier projet professionnel en tant que Designeur UI/UX.",
             "img" : "src/images/CRM-thumbnail.jpg"
         },
@@ -17,6 +24,11 @@
                 "UI/UX Designer",
                 "PO/PM"
             ],
+            "outils": [
+                "Figma",
+                "Notion"
+            ],
+            "duree": "4 mois",
             "description": "IMF-GO Lite est un project qui permet aux acheteurs de machines FCS de pouvoir suivre des commandes plus ou moins compliqués avec tout un tas de statistiques",
             "img" : "src/images/CRM-Lite-thumbnail.jpg"
         },
@@ -24,9 +36,13 @@
             "id": 2,
             "name": "Brilltek - BrillPunch",
             "roles": [
-                "UI/UX Designer",
-                "PO/PM"
+                "UI/UX Designer"
             ],
+            "outils": [
+                "Figma",
+                "Notion"
+            ],
+            "duree": "Projet abandonné",
             "description": "Système de pointage avancé pour des employeurs ou des freelances. Le but est de pouvoir convenir à tout type d'emploi du temps en ayant un design très modulable.",
             "img" : "src/images/Brillpunch-thumbnail.jpg"
         }

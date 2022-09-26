@@ -1,0 +1,97 @@
+@import "./variables.less";
+
+
+.container {
+    padding-top: 150px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; 
+        gap:24px;
+    }
+
+    .back-btn {
+        &:extend(.text-large); 
+        background-color: @btn-bg;
+        color:@black;
+        border:1px solid black;
+        padding: 4px 16px;
+        cursor:pointer;
+        
+    }
+    .back-btn:hover {
+        background-color: #fafafa;
+        transition: ease-in-out 300ms;
+    }
+
+    .h1 {
+        &:extend(.headline-large);
+    }
+
+    .infos-generales {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap:5%;
+        
+        .category {
+            width:100%;
+            padding: 24px 0px;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            
+            b {
+                &:extend(.text-large);
+                font-weight: bold;
+                overflow-wrap: break-word;
+            }
+            p {
+                &:extend(.text-default);
+                color:@dark;
+                
+            }
+        }
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        &:extend(.text-default);
+
+
+        a {
+            color:@contrast;
+            padding:8px 16px;
+            text-decoration: none;
+            width:fit-content;
+        }
+        a:hover {
+            color: @contrast;
+            filter: opacity(0.7);
+        }
+    }
+
+    #enjeux {
+        scroll-margin-top: 150px;
+    }
+
+    #debut {
+        scroll-margin-top: 150px;
+    }
+
+    #designUI {
+        scroll-margin-top: 150px;
+    }
+
+    #problemes {
+        scroll-margin-top: 150px;
+    }
+
+    #conclusion {
+        scroll-margin-top: 150px;
+    }
+    
+}

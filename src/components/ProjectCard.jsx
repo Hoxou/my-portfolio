@@ -14,7 +14,7 @@ const ProjectCard = (props) => {
                 <h3 className="role">{props.role}</h3>
             </div>
             <p className="desc">{props.description}</p>
-            <Link href={"details/"+ props.id}><button >voir en détails</button></Link >
+            <Link href={"projet/"+ props.id}><button >voir en détails</button></Link >
         </div>
     );
 
