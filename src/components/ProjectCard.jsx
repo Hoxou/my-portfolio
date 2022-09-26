@@ -1,4 +1,5 @@
 import "../styles/projectCard.less";
+import { Link } from 'preact-router/match';
 
 
 const ProjectCard = (props) => {
@@ -13,7 +14,7 @@ const ProjectCard = (props) => {
                 <h3 className="role">{props.role}</h3>
             </div>
             <p className="desc">{props.description}</p>
-            <button>voir en détails</button>
+            <Link href={"details/"+ props.id}><button >voir en détails</button></Link >
         </div>
     );
 

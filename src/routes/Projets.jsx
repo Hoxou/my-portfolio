@@ -14,11 +14,16 @@ export default function Projets(props) {
 
           projectsData.map(project => {
             return (
-              <ProjectCard
+             
+                <ProjectCard
                 name={project.name}
                 role={project.roles.join(" - ")}
                 description={project.description} 
-                image={project.img}/>
+                image={project.img}
+                id={project.id.toString()}
+                />
+             
+              
             )
           })
         }
