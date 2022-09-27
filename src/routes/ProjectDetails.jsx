@@ -55,6 +55,56 @@ export default function ProjectDetails(props) {
 
             {/*1. les enjeux*/}
             <div id="enjeux">
+                <div className="blue-container">
+                    <div>
+                        <h1 className="title">1. Les enjeux</h1>
+                        <p className="description">{project.categories.enjeux[0].description}</p>
+                    </div>
+                    <img src={project.categories.enjeux[0].img} />
+                </div>
+
+                <div className="analysis">
+                    <h2 className="subtitle">· Analyse compétitive</h2>
+                    <p className="description">{project.categories.enjeux[1].description}</p>
+
+                    <div className="swot">
+                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
+                            <h3>Strengths</h3>
+                            <ul>
+                                <li className="description">1</li>
+                                <li className="description">2</li>
+                                <li className="description">3</li>
+                            </ul>
+                        </div>
+                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
+                            <h3>Weaknesses</h3>
+                            <ul>
+                                <li className="description">1</li>
+                                <li className="description">2</li>
+                                <li className="description">3</li>
+                            </ul>
+                        </div>
+                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
+                            <h3>Opportunities</h3>
+                            <ul>
+                                <li className="description">1</li>
+                                <li className="description">2</li>
+                                <li className="description">3</li>
+                            </ul>
+                        </div>
+                        <div className="swot-category">
+                            <h3>Threats</h3>
+                            <ul>
+                                <li className="description">1</li>
+                                <li className="description">2</li>
+                                <li className="description">3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+               
 
             </div>
 
