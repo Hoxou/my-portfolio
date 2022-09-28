@@ -81,6 +81,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     #enjeux {
         scroll-margin-top: 150px;
 
@@ -112,28 +122,34 @@
 
         .analysis {
             margin-top: 35em;
+
             .subtitle {
                 &:extend(.title-large);
             }
-            .description {
+
+            .analysis-desc {
+                &:extend(.text-default);
                 width: 50%;
             }
 
             .swot {
-                display: flex;
-                align-items: stretch;
+                display: inline-flex;
                 flex-wrap: wrap;
+                justify-content: space-between;
                 width: 100%;
                 margin-top: 250px;
-                padding: 40px;
-                gap:24px;
+
+                .vl {
+                    border: 0.5px solid #B1BEEB;
+                }
+
+                .description {
+                    &:extend(.text-default);
+                }
 
                 .swot-category {
-                    padding:0 32px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: stretch;
+                    align-self: flex-start;
+                    width: 300px;
 
                     h3 {
                         &:extend(.title-small);
@@ -141,24 +157,69 @@
                     }
                 }
             }
+
+
+        }
+
+        .enjeux-img {
+            margin-top: 250px;
+            width: 100%;
+            background-image: url("../images/lines-bg.svg");
+
+            img {
+                aspect-ratio: 1/1;
+                min-width: 500px;
+                width: 80%;
+            }
         }
         
 
         
     }
 
+
+
+
+
+
+
+
+
     #debut {
         scroll-margin-top: 150px;
     }
+
+
+
+
+
+
+
+
+
 
     #designUI {
         scroll-margin-top: 150px;
     }
 
+
+
+
+
+
+
+
+
     #problemes {
         scroll-margin-top: 150px;
     }
 
+
+
+
+
+
+    
     #conclusion {
         scroll-margin-top: 150px;
     }

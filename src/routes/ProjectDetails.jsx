@@ -1,12 +1,14 @@
 import "../styles/projectDetails.less";
 import Header from "../components/Header"
 import { projects as projectsData } from "../data/data.json";
+import { projects as swot } from "../data/data.json";
 import { Link } from 'preact-router/match'
 
 export default function ProjectDetails(props) {
     const project = projectsData[props.id];
+    let swot = projectsData[props.id].categories.enjeux[2].swot;
     const backIcon = "<"
-
+    console.log(swot);
 
   return (
     <div className="projectDetails">
@@ -65,43 +67,33 @@ export default function ProjectDetails(props) {
 
                 <div className="analysis">
                     <h2 className="subtitle">· Analyse compétitive</h2>
-                    <p className="description">{project.categories.enjeux[1].description}</p>
+                    <p className="analysis-desc">{project.categories.enjeux[1].description}</p>
 
                     <div className="swot">
-                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
-                            <h3>Strengths</h3>
-                            <ul>
-                                <li className="description">1</li>
-                                <li className="description">2</li>
-                                <li className="description">3</li>
-                            </ul>
-                        </div>
-                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
-                            <h3>Weaknesses</h3>
-                            <ul>
-                                <li className="description">1</li>
-                                <li className="description">2</li>
-                                <li className="description">3</li>
-                            </ul>
-                        </div>
-                        <div className="swot-category" style={{borderRight:"1px solid #B1BEEB"}}>
-                            <h3>Opportunities</h3>
-                            <ul>
-                                <li className="description">1</li>
-                                <li className="description">2</li>
-                                <li className="description">3</li>
-                            </ul>
-                        </div>
-                        <div className="swot-category">
-                            <h3>Threats</h3>
-                            <ul>
-                                <li className="description">1</li>
-                                <li className="description">2</li>
-                                <li className="description">3</li>
-                            </ul>
-                        </div>
+                    {swot.map(category => {
+                        return (
+                            <>
+                                <div className="swot-category">
+                                <h3>{category.name}</h3>
+                                <ul>
+                                    {category.list.map(description => {
+                                        return (
+                                            <li className="description">{description}</li>
+                                        )
+                                    })}
+                                </ul>
+                                </div>
+                                <div className="vl"></div>
+                            </>
+                        )
+                    })}
                     </div>
                 </div>
+                
+                <div className="enjeux-img">
+                    <img src={project.categories.enjeux[1].img} />
+                </div>
+               
                 
                 
                
@@ -123,3 +115,10 @@ export default function ProjectDetails(props) {
     </div>
   )
 }
+
+
+
+/*
+
+ 
+*/

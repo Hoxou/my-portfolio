@@ -19,11 +19,40 @@
             "categories" : {
                 "enjeux" : [{
                     "description" : "L’enjeu principal était de pouvoir avoir un design qui pourrait s’adapter à tout type d’environnement, Étant donné que c’était une application internationale, un mauvais design pourrait impacter l’efficacité et engendrer la frustration de milliers de personnes.",
-                    "img" : ["../src/images/crm/crm-enjeux.png"]
+                    "img" : ["../src/images/crm/crm-enjeux.svg"]
                 },
                 {
-                    "description" : "Le Groupe FCS est assez large et possède beaucoup de compétiteurs comme : Altech、Freesia Macross、Hosokawa Micron、KAWATA MFG. CO.,LTD.、Nissei ASB Machine etc.. Je peux alors dire que le marché est assez vaste et qu’il va falloir avoir une application efficace, plus que jolie, autrement dit favoriser l’UX à l’UI, vu qu’il s’agit d’une apllication utilisée entièrement en interne, pour que les clients puissent être plus rentable tous les jours."
-                }]
+                    "description" : "Le Groupe FCS est assez large et possède beaucoup de compétiteurs comme : Altech、Freesia Macross、Hosokawa Micron、KAWATA MFG. CO.,LTD.、Nissei ASB Machine etc.. Je peux alors dire que le marché est assez vaste et qu’il va falloir avoir une application efficace, plus que jolie, autrement dit favoriser l’UX à l’UI, vu qu’il s’agit d’une apllication utilisée entièrement en interne, pour que les clients puissent être plus rentable tous les jours.",
+                    "img": "../src/images/crm/crm_enjeux2.svg"
+                },
+                {
+                    "swot" : [
+                    {
+                        "name" : "Strengths",
+                        "list" : ["a",
+                                "b",
+                                "c"]
+                    },
+                    {
+                        "name" : "Weaknesses",
+                        "list" : ["a",
+                                "b",
+                                "c"]
+                    },
+                    {
+                        "name" : "Opportunities",
+                        "list" : ["a",
+                                "b",
+                                "c"]
+                    },
+                    {
+                        "name" : "Threats",
+                        "list" : ["a",
+                                "b",
+                                "c232323"]
+                    }]
+                }
+                ]
             }
         },
         {
