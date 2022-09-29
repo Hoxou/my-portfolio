@@ -7,8 +7,7 @@ import { Link } from 'preact-router/match'
 export default function ProjectDetails(props) {
     const project = projectsData[props.id];
     let swot = projectsData[props.id].categories.enjeux[2].swot;
-    const backIcon = "<"
-    console.log(swot);
+    const backIcon = "<";
 
   return (
     <div className="projectDetails">
@@ -67,7 +66,7 @@ export default function ProjectDetails(props) {
 
                 <div className="analysis">
                     <h2 className="subtitle">· Analyse compétitive</h2>
-                    <p className="analysis-desc">{project.categories.enjeux[1].description}</p>
+                    <p className="desc">{project.categories.enjeux[1].description}</p>
 
                     <div className="swot">
                     {swot.map(category => {
@@ -101,8 +100,62 @@ export default function ProjectDetails(props) {
             </div>
 
             {/*2. le début du projet*/}
-            <div id="lUI">
+            <div id="debut">
+                <div className="blue-container">
+                    <div>
+                        <h1 className="title">2. Le début du projet</h1>
+                        <p className="description">{project.categories.debut[0].description}</p>
+                    </div>
+                </div>
 
+                <div className="peronas">
+                    <div className="info">
+                            <h2 className="subtitle">· Personas</h2>
+                            <p className="desc">{project.categories.debut[1].description}</p>
+                        
+                    </div>
+
+                    {/*add loop to show personas here*/}
+
+
+
+                    <h2 className="subtitle" style={{marginTop:300}}>· Tasks flow</h2>
+                    <p className="desc">{project.categories.debut[3].description}</p>
+
+                    <div className="bg-img">
+                        <img src={project.categories.debut[3].img} />
+                    </div>
+
+                    <div className="info">
+                        <h2 className="subtitle" style={{marginTop:300}}>· Wireframing / Low-fidelity </h2>
+                        <p className="desc">{project.categories.debut[4].description}</p>
+                    </div>
+
+                    <div className="bg-img">
+                        <div className="wireframes-container">
+                        {project.categories.debut[4].wireframes.map(wireframe => {
+                            return (
+                                <div className="wireframe-container">
+                                    <div className="wr-images">
+                                    {wireframe.img.map(wr => {
+                                        
+                                        return (
+                                            <div className="img-test">
+                                                <img src={wr}/>
+                                            </div>
+                                                
+                                        )
+                                    })}
+                                    </div>
+                                    <p>{wireframe.description}</p>
+                                </div>
+                            )
+                        })}
+                        </div>
+                    </div>
+                    
+
+                </div>
             </div>
 
 

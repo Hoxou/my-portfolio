@@ -88,49 +88,49 @@
 
 
 
+    .blue-container{
+        margin-top: 5em;
+        padding:60px;
+        background-color: @main-bg;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position:relative;
+        z-index: -1;
 
+        div {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+        }
+
+        img {
+            position: absolute;
+            right:0;
+            width: 40em;
+            top:-10em;
+            z-index: 0;
+        }
+    }
+
+    .subtitle {
+        &:extend(.title-large);
+    }
+
+    .desc {
+        &:extend(.text-default);
+        width: 50%;
+    }
 
 
     #enjeux {
         scroll-margin-top: 150px;
 
-        .blue-container{
-            margin-top: 5em;
-            padding:60px;
-            background-color: @main-bg;
-            display: flex;
-            justify-content: start;
-            align-items: center;
-            position:relative;
-            z-index: -1;
-
-            div {
-                width: 50%;
-                display: flex;
-                flex-direction: column;
-                justify-content: start;
-            }
-    
-            img {
-                position: absolute;
-                right:0;
-                width: 40em;
-                top:-10em;
-                z-index: 0;
-            }
-        }
-
         .analysis {
             margin-top: 35em;
 
-            .subtitle {
-                &:extend(.title-large);
-            }
-
-            .analysis-desc {
-                &:extend(.text-default);
-                width: 50%;
-            }
+            
 
             .swot {
                 display: inline-flex;
@@ -187,6 +187,69 @@
 
     #debut {
         scroll-margin-top: 150px;
+        margin-top: 350px;
+
+       .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        margin-top:300px;
+
+        .subtitle { 
+            width: 50%;
+        }
+       }
+
+       .bg-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: @dark;
+        margin-top:150px;
+        z-index: -2;
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            margin:16px 0px;
+        }
+       }
+       
+       .wireframes-container {
+        display: flex;
+        padding:32px 16px;
+        gap:32px;
+        flex-wrap: wrap;
+
+            .wireframe-container {
+                display: flex;
+                flex-direction: column;
+                //align-items: center;
+                width: auto;
+                width: 47%;
+                flex-grow: 3;
+                z-index: 0;
+
+                p {
+                    &:extend(.text-default);
+                    color: #fff;
+                }
+
+                .wr-images {
+                    display: inline-flex;
+                    width:100%;
+
+                    .img-test {
+                        display: flex;
+                        flex: auto;
+                    }
+                }
+                
+            }
+       }
+
+       
     }
 
 

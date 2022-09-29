@@ -51,8 +51,61 @@
                                 "b",
                                 "c232323"]
                     }]
-                }
-                ]
+                }],
+                "debut" : [{
+                    "description":"Je n’ai pas dû faire de personas, userflow ou quelconque autre recherche car les développeurs et le client attendaient et j’étais seul sur le projet, néanmoins j’ai décidé d’en créer juste pour ce portfolio pour vous montrer que je suis capable d’en faire. "
+                },
+                {
+                    "description" : "J’ai créé deux UX personas, deux types de commercial différents qui pourrait travailler chez FCS et qui donc utiliserait notre application. Avec le recul je pense que j’aurais dû en créer malgrès mon manque de temps."
+                },
+                {
+                    "personas" : [{
+                        "img" : "",
+                        "name" : "Wang, Chi-Hsu",
+                        "age" : "57 ans",
+                        "localisation": "Taichung, Taiwan",
+                        "quote" : "‘‘Je n’aime pas la technologie car elle me ralentit. Si je peux l’éviter je le ferais car je suis plus efficace seul’’",
+                        "description" : "Wang est commercial chez FCS depuis 25ans, il a de l’expérience et connait l’entreprise comme sa poche. Il est proche de la retraite et veux simplement finir ses années dans de bonnes conditions sans prise de tête. ",
+                        "comportements" : ["Il a beaucoup de confiance en soi, il n’a plus rien à prouver", "Il est très bon socialement et a beaucoup de contacts"],
+                        "objectifs" : ["Conclure des contrats sans difficulté", "Entretenir une bonne relation avec ses clients"],
+                        "Points faibles" : ["Il a débuter sa carrière sans utiliser la technologie. Il la déteste car il ne sait pas l’utiliser et donc il pense que c’est une perte de temps."],
+                        "motivations" : ["Sérénité", "Reconnaissance", "Expertise"]
+                    },
+                    {
+                        "img" : "",
+                        "name" : "Chang, Yong-Xi",
+                        "age" : "27 ans",
+                        "localisation": "Taichung, Taiwan",
+                        "quote" : "‘‘Mon objectif ne sera jamais atteint car je vise toujours beaucoup trop haut.’’",
+                        "description" : "Change commence tout juste sa carrière et à la soif de réussir. Il a donc rejoint FCS en tant que commercial pour pouvoir leur démontrer ses talents de vendeur. Il a un seul but, il veut tout faire pour être le meilleur dans son travail afin d’avoir une reconnaissance et de monter en grade le plus rapidement possible.",
+                        "comportements" : ["Il a beaucoup trop de confiance en soi, il a donc beaucoup d’ennemis.", "Il travaille très dur et son travail porte souvent ses fruits."],
+                        "objectifs" : ["Monter en grade rapidement", "Vendre le plus possible, le plus rapidement possible"],
+                        "Points faibles" : ["Il n’a pas énormément d’expérience, ce qui veut dire que sa personnalité peut lui jouer des tours et l’empêcher de conclure des ventes car il est trop arrogant."],
+                        "motivations" : ["Succès", "Reconnaissance", "Argent"]
+                    }]
+                },
+                {
+                    "description" : "Le user flow est une partie très importante pour préparer un projet. Voici celui que j’ai designé pour la fonctionnalité de “pointage/dépointage” de ce projet, uniquement pour ce portfolio.",
+                    "img" : "../src/images/crm/crm-taskflow.svg"
+                },
+                {
+                    "description" : "Le Wireframing de ce projet à été secoué beaucoup de fois par changements fréquents d’orientation. Néanmoins, en suivant les changements demandés par l’équipe, j’ai réussi à produire un wireframing qui correspondait à l’attente de mon supérieur pour en faire une démonstration au client.",
+                    "wireframes" : [{
+                        "img": ["../src/images/crm/crm-wr1.jpg"],
+                        "description" : "Première version du flow pour accéder a plannifier une visite."
+                    },
+                    {
+                        "img" : ["../src/images/crm/crm-wr2.jpg"],
+                        "description" : "Première version du flow pour voir la liste des clients. (non complète)"
+                    },
+                    {
+                        "img" : ["../src/images/crm/crm-wr3.jpg","../src/images/crm/crm-wr4.jpg","../src/images/crm/crm-wr5.jpg","../src/images/crm/crm-wr6.jpg"],
+                        "description" : "Idées de flow pour la fonctionnalité “Punch in/out”."
+                    }]
+                }],
+                "designUI" : [{}],
+                "problemes" : [{}],
+                "conclusion" : [{}]
             }
         },
         {
