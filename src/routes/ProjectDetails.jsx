@@ -7,6 +7,7 @@ import { Link } from 'preact-router/match'
 export default function ProjectDetails(props) {
     const project = projectsData[props.id];
     let swot = projectsData[props.id].categories.enjeux[2].swot;
+    let problemes = projectsData[props.id].categories.problemes[1].problemes;
     const backIcon = "<";
 
   return (
@@ -155,6 +156,74 @@ export default function ProjectDetails(props) {
                     </div>
                     
 
+                </div>
+            </div>
+
+
+            {/*3. l'UI*/}
+            <div id="designUI">
+                <div className="blue-container">
+                    <div>
+                        <h1 className="title">3. Le design d’interface</h1>
+                        <p className="description">{project.categories.designUI[0].description}</p>
+                    </div>
+                </div>
+
+                <div className="challenge">
+                    <div className="info">
+                            <h2 className="subtitle">· App : Le Challenge</h2>
+                            <p className="desc">{project.categories.designUI[1].description}</p>
+                    </div>
+                    <img src={project.categories.designUI[1].img} />
+                </div>
+                <div className="goal">
+                    <div className="info">
+                        <h2 className="subtitle">· Le Goal</h2>
+                        <p className="desc">{project.categories.designUI[2].description}</p>
+                    </div>
+                </div>
+                <div className="concretisation">
+                    <div className="info">
+                        <h2 className="subtitle">· Desktop : La concrétisation</h2>
+                        <p className="desc">{project.categories.designUI[3].description}</p>
+                    </div>
+                    <img src={project.categories.designUI[3].img[0]} />
+                    <img src={project.categories.designUI[3].img[1]} />
+                </div>
+               
+
+            </div>
+
+
+
+            {/*3. problemes*/}
+            <div id="problemes">
+                <div className="blue-container">
+                    <div>
+                        <h1 className="title">4. Les problèmes soulevés</h1>
+                        <p className="description">{project.categories.problemes[0].description}</p>
+                    </div>
+                </div>
+
+                <div className="problemes">
+                    {problemes.map(prob => {
+                        return (
+                            <div className="probleme">
+                                <h2 className="subtitle">· {prob.title}</h2>
+                                <div className="avant-apres">
+                                    <div className="avant">
+                                        <h3>Avant</h3>
+                                        <img src={prob.img[0]} />
+                                    </div>
+                                    <div className="apres">
+                                        <h3>Après</h3>
+                                        <img src={prob.img[1]} />
+                                    </div>
+                                </div>
+                                <p className="desc">{prob.description}</p>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
 

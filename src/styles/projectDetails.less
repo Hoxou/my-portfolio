@@ -263,6 +263,37 @@
 
     #designUI {
         scroll-margin-top: 150px;
+        margin-top: 350px;
+
+        .challenge {
+            margin-top:350px;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .goal {
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                width: 100%;
+                margin-top:300px;
+
+                .subtitle {
+                    width:50%;
+                }
+            }
+        }
+
+        .concretisation {
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
     }
 
 
@@ -275,6 +306,46 @@
 
     #problemes {
         scroll-margin-top: 150px;
+        margin-top: 350px;
+
+        .probleme {
+            margin-top: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:48px;
+
+            .subtitle {
+                width: 100%;
+            }
+            .desc {
+                width:100%;
+            }
+
+            .avant-apres {
+                display: flex;
+                flex-wrap: wrap;
+                gap:96px;
+
+                .avant, .apres {
+                    display: flex;
+                    width:auto;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h3 {
+                        text-align: center;
+                        width: 100%;
+                    }
+                    img{
+                        height:650px;
+                    }
+                    
+                }
+            }
+        }
     }
 
 
@@ -285,6 +356,7 @@
     
     #conclusion {
         scroll-margin-top: 150px;
+        margin-top: 350px;
     }
     
 }

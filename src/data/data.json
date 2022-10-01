@@ -103,8 +103,41 @@
                         "description" : "Idées de flow pour la fonctionnalité “Punch in/out”."
                     }]
                 }],
-                "designUI" : [{}],
-                "problemes" : [{}],
+                "designUI" : [{
+                    "description": "Je vous montrerais ici que la partie qui a été utilisée pour le développement, et non pas l’ancien design qui avait eu lieu sur Adobe XD. J’ai designé l’ensemble du projet seul, mais ai effectué des modifications au cours du temps en prenant en compte les demandes client."
+                },
+                {
+                    "description" : "En se basant sur des fichiers excels compliqués en Chinois sur une industrie que je ne connais pas, pouvoir designer une APP B2B qui soit simple d’utilisation malgrés la Big Data.",
+                    "img" : "../src/images/crm/crm-challenge.svg"
+                },
+                {
+                    "description" : "Faire un design attrayant sans perdre mais utilisable. Et faire en sorte qu’il soit facilement transposable en Chinois et Anglais. Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement."
+                },
+                {
+                    "description": "Faire un design attrayant sans perdre mais utilisable. Et faire en sorte qu’il soit facilement transposable en Chinois et Anglais. Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement.",
+                    "img" : ["../src/images/crm/crm-conc1.svg","../src/images/crm/crm-conc2.svg"]
+                }],
+                "problemes" : [{
+                    "description" : "Ayant débuté le projet sur Adobe XD pour essayer le logiciel, j’ai rencontré des difficultés pour reproduire les composants comme je le souhaitais. Ce qui a engendrer quelques erreurs de design que j’ai dû résoudre..."
+                },
+                {
+                    "problemes" : [{
+                        "title" : "Problème 1 : Design en général (exemple avec “mon profil”)",
+                        "type": 1,
+                        "description" : "à gauche, design beaucoup trop fancy, que l’on peut voir énormément sur Internet. Malgrés tout, ce genre de design chaotique n’est pas réalisable et utilisable dans un environnement B2B. De plus, suite aux attentes du client, j’ai dû adapter mon design en me basant sur le design system de MaterialDesign de Google pour que les développeurs puissent gagner en efficacité et temps de travail.",
+                        "img" : ["../src/images/crm/crm-pb1-avant.svg","../src/images/crm/crm-pb1-apres.svg"]
+                    },{
+                        "title" : "Problème 2 : Le planning des visites",
+                        "type": 1,
+                        "description" : "L’ancien design était très efficace pour observer son planning d’une manière globale, mais l’on pouvait pas voir les détails des visites à moins de tap dessus, et souvent les utilisateurs ne pouvaient pas tap au bon endroit. J’ai donc amélioré le design en pouvant choisir 2 vues globales : “un jour” et  “trois jours”.J’ai gagné en lisibilité, et les utilisateurs peuvent toujours swipe à gauche ou à droite pour voir les autres jours.",
+                        "img" : ["",""]
+                    },{
+                        "title" : "Problème 3 : Dashboard du back-office",
+                        "type": 2,
+                        "description" : "Le problème principal était la difficulté d’obtenir les informations importantes en un seul coup d’oeil. J’ai donc amélioré ça non seulement en adaptant la taille de la frame sur laquelle je travaillais (d’un format macbook, à un format 1440x1024 beaucoup plus utilisé dans les bureaux du client), mais également en améliorant les “cards” pour avoir les informations les plus importantes en haut et de pouvoir avoir des statistiques globales par mois ou par année.",
+                        "img" : ["",""]
+                    }]
+                }],
                 "conclusion" : [{}]
             }
         },
