@@ -18,45 +18,45 @@
             "img" : "src/images/CRM-thumbnail.jpg",
             "categories" : {
                 "enjeux" : [{
-                    "description" : "L’enjeu principal était de pouvoir avoir un design qui pourrait s’adapter à tout type d’environnement, Étant donné que c’était une application internationale, un mauvais design pourrait impacter l’efficacité et engendrer la frustration de milliers de personnes.",
+                    "description" : "L’enjeu principal était de pouvoir avoir un design qui pourrait s’adapter à tout type d’environnement. Étant donné que c’est une application qui a pour but d'être utilisée internationalement, un mauvais design pourrait impacter l’efficacité, engendrer la frustration de milliers de personnes, ainsi que d'impacter les ventes de l'entreprise.",
                     "img" : ["../src/images/crm/crm-enjeux.svg"]
                 },
                 {
-                    "description" : "Le Groupe FCS est assez large et possède beaucoup de compétiteurs comme : Altech、Freesia Macross、Hosokawa Micron、KAWATA MFG. CO.,LTD.、Nissei ASB Machine etc.. Je peux alors dire que le marché est assez vaste et qu’il va falloir avoir une application efficace, plus que jolie, autrement dit favoriser l’UX à l’UI, vu qu’il s’agit d’une apllication utilisée entièrement en interne, pour que les clients puissent être plus rentable tous les jours.",
+                    "description" : "Le Groupe FCS est assez large, et possède beaucoup de compétiteurs comme : Altech、Freesia Macross、Hosokawa Micron、KAWATA MFG. CO.,LTD.、Nissei ASB Machine etc.. Je peux alors dire que le marché est assez vaste et qu’il va falloir designé une application à la fois : efficace, pratique et simple d'utilisation. Autrement dit favoriser l’UX à l’UI, vu qu’il s’agit d’une application utilisée entièrement en interne, pour que les commerciaux chez FCS puissent être plus rentable tous les jours, lors de leur visite chez les clients.",
                     "img": "../src/images/crm/crm_enjeux2.svg"
                 },
                 {
                     "swot" : [
                     {
                         "name" : "Strengths",
-                        "list" : ["a",
-                                "b",
-                                "c"]
+                        "list" : ["Principal acteur sur le marché Taïwanais",
+                                "Large catalogue de machines",
+                                "Présent à l'international"]
                     },
                     {
                         "name" : "Weaknesses",
-                        "list" : ["a",
-                                "b",
-                                "c"]
+                        "list" : ["N'a jamais subit de transformation digitale",
+                                "Utilisateurs plutôt âgés (moyenne d'environ 50ans)",
+                                "ERP mal configuré, utilisation de données difficile"]
                     },
                     {
                         "name" : "Opportunities",
-                        "list" : ["a",
-                                "b",
-                                "c"]
+                        "list" : ["Récupérer et stocker des données clients pour des futures ventes",
+                                "Utilisations des statistiques pour booster leur efficacité"
+                                ]
                     },
                     {
                         "name" : "Threats",
-                        "list" : ["a",
-                                "b",
-                                "c232323"]
+                        "list" : ["Utilisation d'autres CRM par des compétiteurs qui pourraient les détrôner",
+                                "La concurrence à l'étranger qui se développe de plus en plus à Taïwan"
+                                ]
                     }]
                 }],
                 "debut" : [{
-                    "description":"Je n’ai pas dû faire de personas, userflow ou quelconque autre recherche car les développeurs et le client attendaient et j’étais seul sur le projet, néanmoins j’ai décidé d’en créer juste pour ce portfolio pour vous montrer que je suis capable d’en faire. "
+                    "description":"Je n’ai pas dû faire de personas, userflow ou quelconque autre recherche car les développeurs et le groupe FCS avaient une deadline assez short, et j’étais seul designer sur le projet. Néanmoins, j’ai décidé d’en créer juste pour ce portfolio pour vous montrer que je suis capable d’en faire."
                 },
                 {
-                    "description" : "J’ai créé deux UX personas, deux types de commercial différents qui pourrait travailler chez FCS et qui donc utiliserait notre application. Avec le recul je pense que j’aurais dû en créer malgrès mon manque de temps."
+                    "description" : "J’ai créé deux UX personas, deux types de commercial FCS différents qui pourrait être susceptible de travailler chez FCS et qui donc utiliserait notre application. Avec le recul je pense que j’aurais dû en créer malgré mon manque de temps, afin d'avoir une meilleur vision et avoir une prise de décision plus rapide et logique."
                 },
                 {
                     "personas" : [{
@@ -65,7 +65,7 @@
                         "age" : "57 ans",
                         "localisation": "Taichung, Taiwan",
                         "quote" : "‘‘Je n’aime pas la technologie car elle me ralentit. Si je peux l’éviter je le ferais car je suis plus efficace seul’’",
-                        "description" : "Wang est commercial chez FCS depuis 25ans, il a de l’expérience et connait l’entreprise comme sa poche. Il est proche de la retraite et veux simplement finir ses années dans de bonnes conditions sans prise de tête. ",
+                        "description" : "Wang est commercial chez FCS depuis 25 années, il a de l’expérience et connait l’entreprise comme sa poche. Il est proche de la retraite et veux simplement finir ses années dans de bonnes conditions sans prise de tête. ",
                         "comportements" : ["Il a beaucoup de confiance en soi, il n’a plus rien à prouver", "Il est très bon socialement et a beaucoup de contacts"],
                         "objectifs" : ["Conclure des contrats sans difficulté", "Entretenir une bonne relation avec ses clients"],
                         "Points faibles" : ["Il a débuter sa carrière sans utiliser la technologie. Il la déteste car il ne sait pas l’utiliser et donc il pense que c’est une perte de temps."],
@@ -77,7 +77,7 @@
                         "age" : "27 ans",
                         "localisation": "Taichung, Taiwan",
                         "quote" : "‘‘Mon objectif ne sera jamais atteint car je vise toujours beaucoup trop haut.’’",
-                        "description" : "Change commence tout juste sa carrière et à la soif de réussir. Il a donc rejoint FCS en tant que commercial pour pouvoir leur démontrer ses talents de vendeur. Il a un seul but, il veut tout faire pour être le meilleur dans son travail afin d’avoir une reconnaissance et de monter en grade le plus rapidement possible.",
+                        "description" : "Chang commence tout juste sa carrière et a la soif de réussir. Il a donc rejoint FCS en tant que commercial pour pouvoir leur démontrer ses talents de vendeur. Il a un seul but, tout faire pour être le meilleur dans son travail afin d’avoir une reconnaissance et de monter en grade et obtenir des promotions le plus rapidement possible.",
                         "comportements" : ["Il a beaucoup trop de confiance en soi, il a donc beaucoup d’ennemis.", "Il travaille très dur et son travail porte souvent ses fruits."],
                         "objectifs" : ["Monter en grade rapidement", "Vendre le plus possible, le plus rapidement possible"],
                         "Points faibles" : ["Il n’a pas énormément d’expérience, ce qui veut dire que sa personnalité peut lui jouer des tours et l’empêcher de conclure des ventes car il est trop arrogant."],
@@ -89,10 +89,10 @@
                     "img" : "../src/images/crm/crm-taskflow.svg"
                 },
                 {
-                    "description" : "Le Wireframing de ce projet à été secoué beaucoup de fois par changements fréquents d’orientation. Néanmoins, en suivant les changements demandés par l’équipe, j’ai réussi à produire un wireframing qui correspondait à l’attente de mon supérieur pour en faire une démonstration au client.",
+                    "description" : "Le Wireframing de ce projet à été secoué beaucoup de fois par changements fréquents d’orientation. Néanmoins, en suivant les changements demandés par l’équipe, j’ai réussi à produire des wireframes qui correspondaient à l’attente de mon supérieur pour en faire une démonstration au client.",
                     "wireframes" : [{
                         "img": ["../src/images/crm/crm-wr1.jpg"],
-                        "description" : "Première version du flow pour accéder a plannifier une visite."
+                        "description" : "Première version du flow pour accéder a planifier une visite."
                     },
                     {
                         "img" : ["../src/images/crm/crm-wr2.jpg"],
@@ -104,32 +104,32 @@
                     }]
                 }],
                 "designUI" : [{
-                    "description": "Je vous montrerais ici que la partie qui a été utilisée pour le développement, et non pas l’ancien design qui avait eu lieu sur Adobe XD. J’ai designé l’ensemble du projet seul, mais ai effectué des modifications au cours du temps en prenant en compte les demandes client."
+                    "description": "Je vous montrerais ici que la partie qui a été utilisée pour le développement, et non pas l’ancien design qui avait été fait sur Adobe XD. J’ai designé l’ensemble du projet seul, mais ai effectué des modifications au cours du temps en prenant en compte les demandes du client, ainsi que des améliorations personnelles (car je trouvais que certaines parties de mon design pouvaient être améliorées)"
                 },
                 {
-                    "description" : "En se basant sur des fichiers excels compliqués en Chinois sur une industrie que je ne connais pas, pouvoir designer une APP B2B qui soit simple d’utilisation malgrés la Big Data.",
+                    "description" : "En se basant sur des fichiers excels compliqués en Chinois sur une industrie que je ne connais pas, pouvoir designer une APP en B2B qui soit simple d’utilisation malgré la Big Data.",
                     "img" : "../src/images/crm/crm-challenge.svg"
                 },
                 {
-                    "description" : "Faire un design attrayant sans perdre mais utilisable. Et faire en sorte qu’il soit facilement transposable en Chinois et Anglais. Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement."
+                    "description" : "Faire un design attrayant tout en ayant une UX au top. Et faire en sorte que mon design soit facilement transposable sur différents devices, en différentes langues (principalement Chinois et Anglais). Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement avec mon équipe de développeurs."
                 },
                 {
-                    "description": "Faire un design attrayant sans perdre mais utilisable. Et faire en sorte qu’il soit facilement transposable en Chinois et Anglais. Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement.",
+                    "description": "Au tout début du design du back-office, j'ai pris mon temps pour aller voir ce qui se faisait en général en design pour des projets contenant beaucoup de data. Ma principale crainte était de faire un design difficilement responsive, mais grâce à mes recherches, je suis parvenu à designé un back-office propre, simple d'utilisation, mais également un back-office ou il simple d'y ajouter de nouvelles feature si nécessaire. Car je savais que lors du développement, les demandes client ne cesseraient d'évoluer.",
                     "img" : ["../src/images/crm/crm-conc1.svg","../src/images/crm/crm-conc2.svg"]
                 }],
                 "problemes" : [{
-                    "description" : "Ayant débuté le projet sur Adobe XD pour essayer le logiciel, j’ai rencontré des difficultés pour reproduire les composants comme je le souhaitais. Ce qui a engendrer quelques erreurs de design que j’ai dû résoudre..."
+                    "description" : "Ayant débuté le projet sur Adobe XD pour essayer le logiciel, j’ai rencontré des difficultés pour reproduire les composants comme je le souhaitais. Ce qui a engendrer quelques erreurs de design que j’ai dû résoudre (au niveau de la structure, du mapping, mais aussi simplement au niveau du design interface)..."
                 },
                 {
                     "problemes" : [{
                         "title" : "Problème 1 : Design en général (exemple avec “mon profil”)",
                         "type": 1,
-                        "description" : "'avant', design beaucoup trop fancy, que l’on peut voir énormément sur Internet. Malgrés tout, ce genre de design chaotique n’est pas réalisable et utilisable dans un environnement B2B. De plus, suite aux attentes du client, j’ai dû adapter mon design en me basant sur le design system de MaterialDesign de Google pour que les développeurs puissent gagner en efficacité et temps de travail.",
+                        "description" : "'avant', design beaucoup trop fancy, que l’on peut voir énormément sur Internet. Malgré tout, ce genre de design chaotique n’est pas réalisable et utilisable dans un environnement B2B. De plus, suite aux attentes du client, j’ai dû adapter mon design en me basant sur le design system de MaterialDesign de Google pour que les développeurs puissent gagner en efficacité et temps de travail.(je rappel que j'ai également travailler en tant que Project Manager sur ce projet)",
                         "img" : ["../src/images/crm/crm-pb1-avant.svg","../src/images/crm/crm-pb1-apres.svg"]
                     },{
                         "title" : "Problème 2 : Le planning des visites",
                         "type": 1,
-                        "description" : "L’ancien design était très efficace pour observer son planning d’une manière globale, mais l’on pouvait pas voir les détails des visites à moins de tap dessus, et souvent les utilisateurs ne pouvaient pas tap au bon endroit. J’ai donc amélioré le design en pouvant choisir 2 vues globales : “un jour” et  “trois jours”.J’ai gagné en lisibilité, et les utilisateurs peuvent toujours swipe à gauche ou à droite pour voir les autres jours.",
+                        "description" : "L’ancien design était très efficace pour observer son planning d’une manière globale, mais l’on ne pouvait pas voir les détails des visites à moins de tap dessus, et souvent les utilisateurs ne pouvaient pas tap au bon endroit (âge moyen 50 ans). J’ai donc amélioré le design en pouvant choisir 2 vues globales : “par jour” et  “trois jours”.J’ai gagné en lisibilité, et les utilisateurs peuvent toujours swipe à gauche ou à droite pour voir les autres jours si besoin est.",
                         "img" : ["../src/images/crm/crm-pb2-avant.svg","../src/images/crm/crm-pb2-apres.svg"]
                     },{
                         "title" : "Problème 3 : Dashboard du back-office",
