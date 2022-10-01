@@ -15,7 +15,7 @@ export default function Cv(props) {
             <div className="infos-container">
               <h1>Bonjour !👋🏼</h1>
               <h3>Moi, c'est <b>Victor Toupar.</b></h3>
-              <p>Je suis un Designeur UI/UX autodidacte depuis 2 ans. J’habite actuellement à Taïwan.<br />
+              <p>Je suis un UI/UX Designer autodidacte depuis 2 ans. J’habite actuellement à Taïwan.<br />
 J’aime voyager 🛫, ️le jeux vidéo ‍🎮, la moto 🏍, et la compétition 🥇. </p>
             </div>
           </div>

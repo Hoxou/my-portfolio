@@ -10,7 +10,7 @@ const Header = () => {
             </ul>
             <ul className="middle">
                 <li>Victor Toupar</li>
-                <li>Designeur UI/UX Junior</li>
+                <li>UI/UX Designer</li>
             </ul>
             <ul className="right">
                 <li><Link href="/projets" activeClassName="active">mes projets</Link></li>
