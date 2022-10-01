@@ -15,15 +15,15 @@
             ],
             "duree": "12 mois",
             "description": "C'est une multinationale qui a décidé d’améliorer leurs ventes en proposant un CRM à leurs commerciaux afin d'obtenir un meilleur rendement. Ce projet comporte de la big Data. Il s’agit de mon tout premier projet professionnel en tant que Designeur UI/UX.",
-            "img" : "src/public/images/CRM-thumbnail.jpg",
+            "img" : "/images/CRM-thumbnail.jpg",
             "categories" : {
                 "enjeux" : [{
                     "description" : "L’enjeu principal était de pouvoir avoir un design qui pourrait s’adapter à tout type d’environnement. Étant donné que c’est une application qui a pour but d'être utilisée internationalement, un mauvais design pourrait impacter l’efficacité, engendrer la frustration de milliers de personnes, ainsi que d'impacter les ventes de l'entreprise.",
-                    "img" : ["../src/public/images/crm/crm-enjeux.svg"]
+                    "img" : ["/images/crm/crm-enjeux.svg"]
                 },
                 {
                     "description" : "Le Groupe FCS est assez large, et possède beaucoup de compétiteurs comme : Altech、Freesia Macross、Hosokawa Micron、KAWATA MFG. CO.,LTD.、Nissei ASB Machine etc.. Je peux alors dire que le marché est assez vaste et qu’il va falloir designé une application à la fois : efficace, pratique et simple d'utilisation. Autrement dit favoriser l’UX à l’UI, vu qu’il s’agit d’une application utilisée entièrement en interne, pour que les commerciaux chez FCS puissent être plus rentable tous les jours, lors de leur visite chez les clients.",
-                    "img": "../src/public/images/crm/crm_enjeux2.svg"
+                    "img": "/images/crm/crm_enjeux2.svg"
                 },
                 {
                     "swot" : [
@@ -86,20 +86,20 @@
                 },
                 {
                     "description" : "Le user flow est une partie très importante pour préparer un projet. Voici celui que j’ai designé pour la fonctionnalité de “pointage/dépointage” de ce projet, uniquement pour ce portfolio.",
-                    "img" : "../src/public/images/crm/crm-taskflow.svg"
+                    "img" : "/images/crm/crm-taskflow.svg"
                 },
                 {
                     "description" : "Le Wireframing de ce projet à été secoué beaucoup de fois par changements fréquents d’orientation. Néanmoins, en suivant les changements demandés par l’équipe, j’ai réussi à produire des wireframes qui correspondaient à l’attente de mon supérieur pour en faire une démonstration au client.",
                     "wireframes" : [{
-                        "img": ["../src/public/images/crm/crm-wr1.jpg"],
+                        "img": ["/images/crm/crm-wr1.jpg"],
                         "description" : "Première version du flow pour accéder a planifier une visite."
                     },
                     {
-                        "img" : ["../src/public/images/crm/crm-wr2.jpg"],
+                        "img" : ["/images/crm/crm-wr2.jpg"],
                         "description" : "Première version du flow pour voir la liste des clients. (non complète)"
                     },
                     {
-                        "img" : ["../src/public/images/crm/crm-wr3.jpg","../src/public/images/crm/crm-wr4.jpg","../src/public/images/crm/crm-wr5.jpg","../src/public/images/crm/crm-wr6.jpg"],
+                        "img" : ["/images/crm/crm-wr3.jpg","/images/crm/crm-wr4.jpg","/images/crm/crm-wr5.jpg","/images/crm/crm-wr6.jpg"],
                         "description" : "Idées de flow pour la fonctionnalité “Punch in/out”."
                     }]
                 }],
@@ -108,14 +108,14 @@
                 },
                 {
                     "description" : "En se basant sur des fichiers excels compliqués en Chinois sur une industrie que je ne connais pas, pouvoir designer une APP en B2B qui soit simple d’utilisation malgré la Big Data.",
-                    "img" : "../src/public/images/crm/crm-challenge.svg"
+                    "img" : "/images/crm/crm-challenge.svg"
                 },
                 {
                     "description" : "Faire un design attrayant tout en ayant une UX au top. Et faire en sorte que mon design soit facilement transposable sur différents devices, en différentes langues (principalement Chinois et Anglais). Tout en essayant d’utiliser les composants de Material UI pour gagner en rapidité de développement avec mon équipe de développeurs."
                 },
                 {
                     "description": "Au tout début du design du back-office, j'ai pris mon temps pour aller voir ce qui se faisait en général en design pour des projets contenant beaucoup de data. Ma principale crainte était de faire un design difficilement responsive, mais grâce à mes recherches, je suis parvenu à designé un back-office propre, simple d'utilisation, mais également un back-office ou il simple d'y ajouter de nouvelles feature si nécessaire. Car je savais que lors du développement, les demandes client ne cesseraient d'évoluer.",
-                    "img" : ["../src/public/images/crm/crm-conc1.svg","../src/public/images/crm/crm-conc2.svg"]
+                    "img" : ["/images/crm/crm-conc1.svg","/images/crm/crm-conc2.svg"]
                 }],
                 "problemes" : [{
                     "description" : "Ayant débuté le projet sur Adobe XD pour essayer le logiciel, j’ai rencontré des difficultés pour reproduire les composants comme je le souhaitais. Ce qui a engendrer quelques erreurs de design que j’ai dû résoudre (au niveau de la structure, du mapping, mais aussi simplement au niveau du design interface)..."
@@ -125,17 +125,17 @@
                         "title" : "Problème 1 : Design en général (exemple avec “mon profil”)",
                         "type": 1,
                         "description" : "'avant', design beaucoup trop fancy, que l’on peut voir énormément sur Internet. Malgré tout, ce genre de design chaotique n’est pas réalisable et utilisable dans un environnement B2B. De plus, suite aux attentes du client, j’ai dû adapter mon design en me basant sur le design system de MaterialDesign de Google pour que les développeurs puissent gagner en efficacité et temps de travail.(je rappel que j'ai également travailler en tant que Project Manager sur ce projet)",
-                        "img" : ["../src/public/images/crm/crm-pb1-avant.svg","../src/public/images/crm/crm-pb1-apres.svg"]
+                        "img" : ["/images/crm/crm-pb1-avant.svg","/images/crm/crm-pb1-apres.svg"]
                     },{
                         "title" : "Problème 2 : Le planning des visites",
                         "type": 1,
                         "description" : "L’ancien design était très efficace pour observer son planning d’une manière globale, mais l’on ne pouvait pas voir les détails des visites à moins de tap dessus, et souvent les utilisateurs ne pouvaient pas tap au bon endroit (âge moyen 50 ans). J’ai donc amélioré le design en pouvant choisir 2 vues globales : “par jour” et  “trois jours”.J’ai gagné en lisibilité, et les utilisateurs peuvent toujours swipe à gauche ou à droite pour voir les autres jours si besoin est.",
-                        "img" : ["../src/public/images/crm/crm-pb2-avant.svg","../src/public/images/crm/crm-pb2-apres.svg"]
+                        "img" : ["/images/crm/crm-pb2-avant.svg","/images/crm/crm-pb2-apres.svg"]
                     },{
                         "title" : "Problème 3 : Dashboard du back-office",
                         "type": 2,
                         "description" : "Le problème principal était la difficulté d’obtenir les informations importantes en un seul coup d’oeil. J’ai donc amélioré ça non seulement en adaptant la taille de la frame sur laquelle je travaillais (d’un format macbook, à un format 1440x1024 beaucoup plus utilisé dans les bureaux du client), mais également en améliorant les “cards” pour avoir les informations les plus importantes en haut et de pouvoir avoir des statistiques globales par mois ou par année.",
-                        "img" : ["../src/public/images/crm/crm-pb3-avant.svg","../src/public/images/crm/crm-pb3-apres.svg"]
+                        "img" : ["/images/crm/crm-pb3-avant.svg","/images/crm/crm-pb3-apres.svg"]
                     }]
                 }],
                 "conclusion" : [{
