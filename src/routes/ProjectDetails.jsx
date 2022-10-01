@@ -196,7 +196,7 @@ export default function ProjectDetails(props) {
 
 
 
-            {/*3. problemes*/}
+            {/*4. problemes*/}
             <div id="problemes">
                 <div className="blue-container">
                     <div>
@@ -207,17 +207,21 @@ export default function ProjectDetails(props) {
 
                 <div className="problemes">
                     {problemes.map(prob => {
+                        let page = false;
+                        if (prob.type === 2) page=true;
                         return (
                             <div className="probleme">
                                 <h2 className="subtitle">· {prob.title}</h2>
                                 <div className="avant-apres">
                                     <div className="avant">
                                         <h3>Avant</h3>
-                                        <img src={prob.img[0]} />
+                                        <img src={prob.img[0]} style={page==true ? {width:"100%"} : {width:"auto"}} />
                                     </div>
                                     <div className="apres">
                                         <h3>Après</h3>
-                                        <img src={prob.img[1]} />
+                                        <img src={prob.img[1]} style={page==true ? {width:"100%"} : {width:"auto"}} />
+                                        
+                                        
                                     </div>
                                 </div>
                                 <p className="desc">{prob.description}</p>
@@ -228,9 +232,19 @@ export default function ProjectDetails(props) {
             </div>
 
 
-
+            {/*5. conclusion*/}
+            <div id="conclusion">
+                <div className="blue-container">
+                    <div>
+                        <h1 className="title">5. Conclusion</h1>
+                        <p className="description">{project.categories.conclusion[0].description}</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
+
+        {/*footer*/}
        
 
 

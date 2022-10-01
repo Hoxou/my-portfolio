@@ -290,7 +290,7 @@
 
         .concretisation {
             img {
-                object-fit: cover;
+                object-fit: contain;
                 width: 100%;
             }
         }
@@ -326,6 +326,8 @@
             .avant-apres {
                 display: flex;
                 flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
                 gap:96px;
 
                 .avant, .apres {
@@ -338,9 +340,6 @@
                     h3 {
                         text-align: center;
                         width: 100%;
-                    }
-                    img{
-                        height:650px;
                     }
                     
                 }
@@ -357,6 +356,26 @@
     #conclusion {
         scroll-margin-top: 150px;
         margin-top: 350px;
+
+
+        div{
+            width: auto;
+        }
     }
+
+
+
+
+
+    @media only screen and (max-width: 1024px) {
+        .blue-container {
+            div {
+                width: auto;
+            }
+            img {
+                display: none;
+            }
+        }
+      }
     
 }
