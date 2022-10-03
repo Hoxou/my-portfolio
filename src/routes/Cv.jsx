@@ -21,31 +21,31 @@ J’aime voyager 🛫, ️le jeux vidéo ‍🎮, la moto 🏍, et la compétiti
           </div>
           <p>Tu souhaites en apprendre d’avantage sur mes compétences ? <strong>Télécharges mon CV !</strong></p>
           <div className="resume-container">
-            {/*}
+            
             <div className="resume">
               <button className="download-btn">
-                <a href="../src/file/UIUX_en_resume.pdf" download="CV_UI-UX_Victor_Toupar.pdf">
+                <a href="../src/file/UIUX_fr_resume.pdf" download="CV_UI-UX_Victor_Toupar.pdf">
                 Télécharger en Français 🇫🇷
                 </a>
               </button>
             </div>
-            */}
+            
             <div className="resume">
               <button className="download-btn">
-                <a href="../src/file/UIUX_en_resume.pdf" download="CV_UI-UX_Victor_Toupar.pdf">
+                <a href="../src/file/UIUX_en_resume.pdf" download="CV_UI-UX_Victor_Toupar_en.pdf">
                 Télécharger en Anglais 🇬🇧
                 </a>
               </button>
             </div>
-            {/*}
+            
             <div className="resume">
               <button className="download-btn">
-                <a href="../src/file/UIUX_en_resume.pdf" download="CV_UI-UX_Victor_Toupar.pdf">
+                <a href="../src/file/UIUX_zh_resume.pdf" download="CV_UI-UX_Victor_Toupar_zh.pdf">
                   Télécharger en Chinois 🇹🇼
                 </a>
               </button>
             </div>
-            */}
+            
           </div>
 
       </div>
