@@ -60,7 +60,7 @@
                 },
                 {
                     "personas" : [{
-                        "img" : "",
+                        "img" : "/images/crm/crm-per-1.png",
                         "name" : "Wang, Chi-Hsu",
                         "age" : "57 ans",
                         "localisation": "Taichung, Taiwan",
@@ -68,11 +68,23 @@
                         "description" : "Wang est commercial chez FCS depuis 25 années, il a de l’expérience et connait l’entreprise comme sa poche. Il est proche de la retraite et veux simplement finir ses années dans de bonnes conditions sans prise de tête. ",
                         "comportements" : ["Il a beaucoup de confiance en soi, il n’a plus rien à prouver", "Il est très bon socialement et a beaucoup de contacts"],
                         "objectifs" : ["Conclure des contrats sans difficulté", "Entretenir une bonne relation avec ses clients"],
-                        "Points faibles" : ["Il a débuter sa carrière sans utiliser la technologie. Il la déteste car il ne sait pas l’utiliser et donc il pense que c’est une perte de temps."],
+                        "points" : ["Il a débuter sa carrière sans utiliser la technologie. Il la déteste car il ne sait pas l’utiliser et donc il pense que c’est une perte de temps."],
+                        "personnalite" : [{
+                            "name" : ["Jugement", "Perception"],
+                            "rate" : "37%" 
+                        },
+                        {
+                            "name" : ["Analytique", "Créatif"],
+                            "rate" : "28%" 
+                        },
+                        {  
+                            "name" : ["Introverti", "Extraverti"],
+                            "rate" : "71%"
+                        }],
                         "motivations" : ["Sérénité", "Reconnaissance", "Expertise"]
                     },
                     {
-                        "img" : "",
+                        "img" : "/images/crm/crm-per-2.png",
                         "name" : "Chang, Yong-Xi",
                         "age" : "27 ans",
                         "localisation": "Taichung, Taiwan",
@@ -80,7 +92,19 @@
                         "description" : "Chang commence tout juste sa carrière et a la soif de réussir. Il a donc rejoint FCS en tant que commercial pour pouvoir leur démontrer ses talents de vendeur. Il a un seul but, tout faire pour être le meilleur dans son travail afin d’avoir une reconnaissance et de monter en grade et obtenir des promotions le plus rapidement possible.",
                         "comportements" : ["Il a beaucoup trop de confiance en soi, il a donc beaucoup d’ennemis.", "Il travaille très dur et son travail porte souvent ses fruits."],
                         "objectifs" : ["Monter en grade rapidement", "Vendre le plus possible, le plus rapidement possible"],
-                        "Points faibles" : ["Il n’a pas énormément d’expérience, ce qui veut dire que sa personnalité peut lui jouer des tours et l’empêcher de conclure des ventes car il est trop arrogant."],
+                        "points" : ["Il n’a pas énormément d’expérience, ce qui veut dire que sa personnalité peut lui jouer des tours et l’empêcher de conclure des ventes car il est trop arrogant."],
+                        "personnalite" : [{
+                            "name" : ["Jugement", "Perception"],
+                            "rate" : "67%" 
+                        },
+                        {
+                            "name" : ["Analytique", "Créatif"],
+                            "rate" : "12%" 
+                        },
+                        {  
+                            "name" : ["Introverti", "Extraverti"],
+                            "rate" : "90%"
+                        }],
                         "motivations" : ["Succès", "Reconnaissance", "Argent"]
                     }]
                 },

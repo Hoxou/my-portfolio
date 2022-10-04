@@ -1,13 +1,15 @@
 import "../styles/projectDetails.less";
 import Header from "../components/Header"
 import { projects as projectsData } from "../data/data.json";
-import { projects as swot } from "../data/data.json";
+import Persona from "../components/Persona";
 import { Link } from 'preact-router/match'
 
 export default function ProjectDetails(props) {
     const project = projectsData[props.id];
     let swot = projectsData[props.id].categories.enjeux[2].swot;
     let problemes = projectsData[props.id].categories.problemes[1].problemes;
+    let personas = project.categories.debut[2].personas;
+
     const backIcon = "<";
 
   return (
@@ -109,14 +111,32 @@ export default function ProjectDetails(props) {
                     </div>
                 </div>
 
-                <div className="peronas">
+                <div className="personas">
                     <div className="info">
                             <h2 className="subtitle">· Personas</h2>
                             <p className="desc">{project.categories.debut[1].description}</p>
                         
                     </div>
-
                     {/*add loop to show personas here*/}
+                    {personas.map (persona => {
+
+                        return (
+                            <div className="personas-content">
+                                <Persona 
+                                    img={persona.img}
+                                    name={persona.name}
+                                    age={persona.age}
+                                    location={persona.localisation}
+                                    quote={persona.quote}
+                                    description={persona.description}
+                                    comportements={persona.comportements}
+                                    objectifs={persona.objectifs}
+                                    points={persona.points}
+                                    personnalite={persona.personnalite}
+                                    motivations={persona.motivations}/>
+                            </div>
+                        )
+                    })}
 
 
 

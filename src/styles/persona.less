@@ -1,0 +1,98 @@
+@import "./variables.less";
+
+.per-container {
+    background-color: @persona-bg;
+    padding: 90px 40px;
+    display: flex;
+    align-items: flex-start;
+    gap:3em;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    border-radius: 0px 24px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.08));
+
+    &:extend(.text-default);
+
+    h2 {
+        &:extend(.title-small);
+    }
+
+    h3 {
+        &:extend(.text-large);
+        line-height: 0%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width:30%;
+        position: relative;
+
+        .per-quote {
+            font-style: italic;
+        }
+
+        img {
+            width:100%;
+
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .per-info {
+            display: flex;
+            gap:16px;
+            .icon {
+                width:24px;
+                aspect-ratio: 1/1;
+            }
+        }
+    }
+
+    .tags {
+        display: flex;
+        gap:8px;
+
+        .tag {
+            background-color: #E7ECFF;
+            padding: 4px 8px
+        }
+    }
+
+    .graph-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        margin-bottom: 32px;
+
+        .titles {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex: 1;
+        }
+
+        .graph {
+            width: 100%;
+            height:1px;
+            margin:16px 0;
+            background-color: @dark;
+            display: flex;
+            align-items: center;
+            position:relative;
+
+            .pointer {
+                width:16px;
+                height:40px;
+                background-color: @main;
+                border-radius: 4px 0px;
+                position: absolute;
+            }
+        }
+    }
+}
