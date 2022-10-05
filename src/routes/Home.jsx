@@ -9,9 +9,12 @@ export default function Home(props) {
           <div className="poste">
               <p>Poste recherché</p>
               <hr></hr>
-              <p>Designeur UI/UX Junior</p>
+              <p>UI/UX Designer</p>
           </div>
-          <p className="main-title">Après avoir designé des interfaces à Taïwan pendant deux ans pour des applications web Big Data, je souhaite poursuivre ma carrière dans ce domaine.</p>
+          <div className="main-title">
+            <p >Après avoir designé des interfaces à Taïwan pendant deux ans pour des applications web Big Data, je souhaite poursuivre ma carrière dans ce domaine.</p>
+          </div>
+          
           <div className="bg-square"></div>
           <div className="quote-container">
             <p className="big-quote">“</p>

@@ -69,4 +69,59 @@
         justify-content: flex-end;
         float: right;
     }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .fixed-bar {
+        padding:24px 24px 16px 24px;
+    }
+
+    .header {
+        height:auto;
+
+        .middle {
+            display: none;
+        }
+
+        ul {
+            width:auto;
+            justify-content: space-around;
+            li {
+                width:auto;
+                float: none;
+            }
+        }
+
+        .right {
+            justify-content: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .fixed-bar {
+        padding:24px 24px 16px 24px;
+    }
+
+    .header {
+        height:auto;
+        display: flex;
+        flex-direction: column;
+
+        ul {
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            gap:0;
+            li {
+                flex:1;
+                justify-content: space-between;
+                text-align: center;
+            }
+        }
+    }
 }
