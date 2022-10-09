@@ -19,7 +19,7 @@ export default function Cv(props) {
 J’aime voyager 🛫, ️le jeux vidéo ‍🎮, la moto 🏍, et la compétition 🥇. </p>
             </div>
           </div>
-          <p>Tu souhaites en apprendre d’avantage sur mes compétences ? <strong>Télécharges mon CV !</strong></p>
+          <p className="phrase">Tu souhaites en apprendre d’avantage sur mes compétences ? <strong>Télécharges mon CV !</strong></p>
           <div className="resume-container">
             
             <div className="resume">
